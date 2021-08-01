@@ -16,3 +16,30 @@
 ```
 yarn add
 ```
+
+### Шаг 3
+Создаем телеграм бота через [BotFather](https://telegram.me/BotFather)
+
+### Шаг 4
+Получаем ключик в [Yandex SpeechKit](https://console.cloud.yandex.ru/)
+
+### Шаг 5
+Создаем файл api.js
+
+```javascript
+const TELEGRAM_API_KEY = '<key>';
+const YA_API_KEY = '<key>'
+
+export {TELEGRAM_API_KEY, YA_API_KEY}
+```
+
+### Шаг 6
+Запускаем бота 
+```
+node index.js
+```
+<br>
+
+## Итог
+У вас должен получиться эхо бот, который просто выводить в чат, всё что вы проговорили.
+Дальше всё зависит от вашей фантазии, или можитей зайти в вторую ветку и посмотреть, что получилось у меня.
