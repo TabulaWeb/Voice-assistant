@@ -6,6 +6,7 @@
   "name": "Voice-assistant",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/TabulaWeb/Voice-assistant.git",
   "author": "Alex Tabula <67907195+TabulaWeb@users.noreply.github.com>",
   "license": "MIT"
